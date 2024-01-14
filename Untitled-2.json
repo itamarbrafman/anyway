@@ -1,0 +1,395 @@
+{
+    "meta": {
+        "location_info": {
+            "yishuv_name": "נתניה",
+            "street1_hebrew": "בני בנימין",
+            "yishuv_symbol": 7400,
+            "street1": [
+                1130
+            ]
+        },
+        "location_text": "רחוב בני בנימין בנתניה",
+        "resolution": "STREET",
+        "dates_comment": {
+            "date_range": [
+                2019,
+                2023
+            ],
+            "last_update": "2023-11-30T00:00:00"
+        }
+    },
+    "widgets": [
+        {
+            "name": "injured_accidents_with_pedestrians",
+            "data": {
+                "items": [
+                    {
+                        "label_key": "2019",
+                        "series": [
+                            {
+                                "label_key": "killed",
+                                "value": 0
+                            },
+                            {
+                                "label_key": "severe injured",
+                                "value": 0
+                            },
+                            {
+                                "label_key": "light injured",
+                                "value": 0
+                            }
+                        ]
+                    },
+                    {
+                        "label_key": "2020",
+                        "series": [
+                            {
+                                "label_key": "killed",
+                                "value": 0
+                            },
+                            {
+                                "label_key": "severe injured",
+                                "value": 0
+                            },
+                            {
+                                "label_key": "light injured",
+                                "value": 0
+                            }
+                        ]
+                    },
+                    {
+                        "label_key": "2021",
+                        "series": [
+                            {
+                                "label_key": "killed",
+                                "value": 0
+                            },
+                            {
+                                "label_key": "severe injured",
+                                "value": 0
+                            },
+                            {
+                                "label_key": "light injured",
+                                "value": 0
+                            }
+                        ]
+                    },
+                    {
+                        "label_key": "2022",
+                        "series": [
+                            {
+                                "label_key": "killed",
+                                "value": 0
+                            },
+                            {
+                                "label_key": "severe injured",
+                                "value": 0
+                            },
+                            {
+                                "label_key": "light injured",
+                                "value": 0
+                            }
+                        ]
+                    },
+                    {
+                        "label_key": "2023",
+                        "series": [
+                            {
+                                "label_key": "killed",
+                                "value": 0
+                            },
+                            {
+                                "label_key": "severe injured",
+                                "value": 0
+                            },
+                            {
+                                "label_key": "light injured",
+                                "value": 0
+                            }
+                        ]
+                    }
+                ],
+                "text": {
+                    "title": "תאונות הולכי רגל לפי חומרה ולפי שנה",
+                    "subtitle": "רחוב בני בנימין בנתניה",
+                    "labels": {
+                        "killed": "הרוג/ה",
+                        "severe injured": "פצוע/ה קשה",
+                        "light injured": "פצוע/ה קל"
+                    }
+                }
+            },
+            "meta": {
+                "widget_digest": "8352309cc5cf38a9ddbdb0d33319d2c6",
+                "rank": 18,
+                "information": "Injured and killed pedestrians by severity and year"
+            }
+        },
+        {
+            "name": "accident_count_by_severity",
+            "data": {
+                "items": {
+                    "severity_light_count": 3,
+                    "severity_fatal_count": 0,
+                    "severity_severe_count": 0,
+                    "start_year": 2019,
+                    "end_year": 2023,
+                    "total_accidents_count": 3
+                },
+                "text": {
+                    "title": "בשנים 2019 - 2023, התרחשו 3 תאונות",
+                    "subtitle": "בני בנימין, נתניה",
+                    "transcription": "ביישוב נתניה ברחוב בני בנימין בין השנים 2019 - 2023, התרחשו 3 תאונות, מתוכן  , ו-3 קלות"
+                }
+            },
+            "meta": {
+                "widget_digest": "8df43a570bd15df00406ced3128a7ee2",
+                "rank": 1,
+                "information": "כמות התאונות הקטלניות, הקשות והקלות ברחוב בפרק הזמן הנבחר."
+            }
+        },
+        {
+            "name": "injured_count_by_severity",
+            "data": {
+                "items": {
+                    "light_injured_count": 3,
+                    "killed_count": 0,
+                    "severe_injured_count": 0,
+                    "start_year": 2019,
+                    "end_year": 2023,
+                    "total_injured_count": 3
+                },
+                "text": {
+                    "title": "מספר תאונות לפי חומרה",
+                    "subtitle": "ברחוב בני בנימין בנתניה",
+                    "transcription": "ביישוב נתניה ברחוב בני בנימין בין השנים 2019 - 2023, נפצעו/נהרגו 3 אנשים מתאונות דרכים, מתוכן  , ו-3 פצועים/ות קל"
+                }
+            },
+            "meta": {
+                "widget_digest": "6849c4a69cc32fa8675821a6c20fcbf8",
+                "rank": 29,
+                "information": "Fatal, severe and light injuries count in the specified location."
+            }
+        },
+        {
+            "name": "seriously_injured_killed_in_bicycles_scooter",
+            "data": {
+                "items": [
+                    {
+                        "label_key": 2019,
+                        "value": 2
+                    },
+                    {
+                        "label_key": 2020,
+                        "value": 3
+                    },
+                    {
+                        "label_key": 2021,
+                        "value": 1
+                    },
+                    {
+                        "label_key": 2022,
+                        "value": 2
+                    },
+                    {
+                        "label_key": 2023,
+                        "value": 2
+                    }
+                ],
+                "text": {
+                    "title": "מספר נפגעים שנפצעו קשה או נהרגו בתאונות אופנים, אופנים חשמליים וקורקינט",
+                    "subtitle": "בנתניה"
+                }
+            },
+            "meta": {
+                "widget_digest": "90205883a39b61656c4369869a711132",
+                "rank": 32,
+                "information": "רוכבי אופניים וקורקינט שנפגעו קשה או נהרגו"
+            }
+        },
+        {
+            "name": "killed_and_injured_count_per_age_group_stacked",
+            "data": {
+                "items": [
+                    {
+                        "label_key": "25-44",
+                        "series": [
+                            {
+                                "label_key": "light injured",
+                                "value": 1
+                            },
+                            {
+                                "label_key": "severe injured",
+                                "value": 0
+                            },
+                            {
+                                "label_key": "killed",
+                                "value": 0
+                            }
+                        ]
+                    },
+                    {
+                        "label_key": "45-64",
+                        "series": [
+                            {
+                                "label_key": "light injured",
+                                "value": 2
+                            },
+                            {
+                                "label_key": "severe injured",
+                                "value": 0
+                            },
+                            {
+                                "label_key": "killed",
+                                "value": 0
+                            }
+                        ]
+                    },
+                    {
+                        "label_key": "65+",
+                        "series": [
+                            {
+                                "label_key": "light injured",
+                                "value": 0
+                            },
+                            {
+                                "label_key": "severe injured",
+                                "value": 0
+                            },
+                            {
+                                "label_key": "killed",
+                                "value": 0
+                            }
+                        ]
+                    },
+                    {
+                        "label_key": "00-04",
+                        "series": [
+                            {
+                                "label_key": "light injured",
+                                "value": 0
+                            },
+                            {
+                                "label_key": "severe injured",
+                                "value": 0
+                            },
+                            {
+                                "label_key": "killed",
+                                "value": 0
+                            }
+                        ]
+                    },
+                    {
+                        "label_key": "05-14",
+                        "series": [
+                            {
+                                "label_key": "light injured",
+                                "value": 0
+                            },
+                            {
+                                "label_key": "severe injured",
+                                "value": 0
+                            },
+                            {
+                                "label_key": "killed",
+                                "value": 0
+                            }
+                        ]
+                    },
+                    {
+                        "label_key": "15-19",
+                        "series": [
+                            {
+                                "label_key": "light injured",
+                                "value": 0
+                            },
+                            {
+                                "label_key": "severe injured",
+                                "value": 0
+                            },
+                            {
+                                "label_key": "killed",
+                                "value": 0
+                            }
+                        ]
+                    },
+                    {
+                        "label_key": "20-24",
+                        "series": [
+                            {
+                                "label_key": "light injured",
+                                "value": 0
+                            },
+                            {
+                                "label_key": "severe injured",
+                                "value": 0
+                            },
+                            {
+                                "label_key": "killed",
+                                "value": 0
+                            }
+                        ]
+                    }
+                ],
+                "text": {
+                    "title": "חומרת פגיעה לפי קבוצת גיל",
+                    "subtitle": "ברחוב בני בנימין בנתניה",
+                    "labels_map": {
+                        "killed": "הרוג/ה",
+                        "severe injured": "פצוע/ה קשה",
+                        "light injured": "פצוע/ה קל"
+                    }
+                }
+            },
+            "meta": {
+                "widget_digest": "948988451d0a41762d2b44d64585a21f",
+                "rank": 30,
+                "information": "Project-Id-Version: PROJECT VERSION\nReport-Msgid-Bugs-To: EMAIL@ADDRESS\nPOT-Creation-Date: 2023-12-19 21:10+0000\nPO-Revision-Date: 2020-10-16 15:42+0000\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\nLanguage: he\nLanguage-Team: he <LL@li.org>\nPlural-Forms: nplurals=2; plural=(n != 1);\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nGenerated-By: Babel 2.12.1\n"
+            }
+        },
+        {
+            "name": "killed_and_injured_count_per_age_group",
+            "data": {
+                "items": [
+                    {
+                        "label_key": "25-44",
+                        "value": 1
+                    },
+                    {
+                        "label_key": "45-64",
+                        "value": 2
+                    },
+                    {
+                        "label_key": "65+",
+                        "value": 0
+                    },
+                    {
+                        "label_key": "00-04",
+                        "value": 0
+                    },
+                    {
+                        "label_key": "05-14",
+                        "value": 0
+                    },
+                    {
+                        "label_key": "15-19",
+                        "value": 0
+                    },
+                    {
+                        "label_key": "20-24",
+                        "value": 0
+                    }
+                ],
+                "text": {
+                    "title": "נפגעים לפי קבוצת גיל",
+                    "subtitle": "ברחוב בני בנימין בנתניה"
+                }
+            },
+            "meta": {
+                "widget_digest": "a6e3f19cda4a5105c1ea9f81090776e4",
+                "rank": 14,
+                "information": "Project-Id-Version: PROJECT VERSION\nReport-Msgid-Bugs-To: EMAIL@ADDRESS\nPOT-Creation-Date: 2023-12-19 21:10+0000\nPO-Revision-Date: 2020-10-16 15:42+0000\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\nLanguage: he\nLanguage-Team: he <LL@li.org>\nPlural-Forms: nplurals=2; plural=(n != 1);\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nGenerated-By: Babel 2.12.1\n"
+            }
+        }
+    ]
+}

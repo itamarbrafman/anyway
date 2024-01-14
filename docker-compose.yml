@@ -7,9 +7,11 @@ services:
     container_name: anyway
     ports:
       - "8080:5000"
+      - "5678:5678"
     environment:
       - DATABASE_URL=postgresql://anyway:anyway@db/anyway
       - FLASK_ENV=development
+      - USE_CACHE_IN_DEV=true
       - TWITTER_CONSUMER_KEY
       - TWITTER_CONSUMER_SECRET
       - TWITTER_ACCESS_KEY
@@ -41,7 +43,7 @@ services:
     volumes:
       - db_data:/var/lib/postgresql/data
     ports:
-      - "9876:5432"
+      - "9888:5432"
     restart: always
 
   anyway-etl:
@@ -96,6 +98,7 @@ services:
     depends_on:
       - airflow-webserver
       - db
+
 
 volumes:
   db_data:
